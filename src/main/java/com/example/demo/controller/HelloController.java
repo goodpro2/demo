@@ -48,8 +48,4 @@ public class HelloController {
         return memberDTO.toString();
     }
 
-    @GetMapping(value = "/request4")
-    public String getRequestParam4(MemberDTO memberDTO) {
-        return memberDTO.toString();
-    }
 }
